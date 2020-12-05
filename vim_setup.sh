@@ -27,3 +27,6 @@ echo "请耐心等待" >> ma6174
 vim ma6174 -c "BundleInstall" -c "q" -c "q"
 rm ma6174
 echo "安装完成"
+git clone https://github.com/kevinw/pyflakes-vim.git
+sudo cp -r pyflakes-vim/ftplugin/python/ ~/.vim/ftplugin/
+rm -rf pyflakes
